@@ -12,6 +12,7 @@
 		33CAE8AD22984BA200680767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CAE8AB22984BA200680767 /* Main.storyboard */; };
 		33CAE8AF22984BA400680767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CAE8AE22984BA400680767 /* Assets.xcassets */; };
 		33CAE8B222984BA400680767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CAE8B022984BA400680767 /* LaunchScreen.storyboard */; };
+		33CAE8BA22984BB800680767 /* AgeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 33CAE8B922984BB800680767 /* AgeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		33CAE8AE22984BA400680767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33CAE8B122984BA400680767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33CAE8B322984BA400680767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CAE8B922984BB800680767 /* AgeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AgeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				33CAE8AE22984BA400680767 /* Assets.xcassets */,
 				33CAE8B022984BA400680767 /* LaunchScreen.storyboard */,
 				33CAE8B322984BA400680767 /* Info.plist */,
+				33CAE8B922984BB800680767 /* AgeNet.mlmodel */,
 			);
 			path = "Age predictor";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				33CAE8AA22984BA200680767 /* ViewController.swift in Sources */,
 				33CAE8A822984BA200680767 /* AppDelegate.swift in Sources */,
+				33CAE8BA22984BB800680767 /* AgeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
